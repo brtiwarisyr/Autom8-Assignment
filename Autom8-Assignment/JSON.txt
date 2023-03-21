@@ -1,0 +1,21 @@
+http://localhost:8080/users
+Http Method : POST
+
+{
+    "firstName":"Peter",
+    "lastName": "D",
+    "email":"peter@gmail.com",
+    "password":"Pass123",
+    "mobile_no":"6162121",
+    "roleType":"NON_MASTER"
+    "VM":[{"OS,"CPU}]
+}
+
+
+http://localhost:8080/login
+Http Method : POST
+
+{
+    "email":"peter@gmail.com",
+    "password":"Pass123"
+}
