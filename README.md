@@ -19,8 +19,6 @@ Once the application runs you should see something like this
 About the Service
 The service is just a simple hotel review REST service. It uses an in-memory database (H2) to store the data. You can also do with a relational database like MySQL or PostgreSQL. If your database connection properties work, you can call some REST endpoints defined in com.khoubyari.example.api.rest.hotelController on port 8090. (see below)
 
-More interestingly, you can start calling some of the operational endpoints (see full list below) like /metrics and /health (these are available on port 8091)
-
 You can use this sample service to understand the conventions and configurations that allow you to create a DB-backed RESTful service. Once you understand and get comfortable with the sample app you can add your own services following the same patterns as the sample service.
 
 Here is what this little application demonstrates:
